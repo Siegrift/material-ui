@@ -6,6 +6,16 @@ import Link from '../src/Link';
 import ProTip from '../src/ProTip';
 import Copyright from '../src/Copyright';
 
+import styled from '@emotion/styled'
+
+const A = styled.div`
+  color: red;
+`
+
+const B = styled.div`
+  color: green;
+`
+
 export default function Home() {
   return (
     <Container maxWidth="lg">
@@ -18,6 +28,8 @@ export default function Home() {
           alignItems: 'center',
         }}
       >
+        <A>AAAAAAAAAAAA</A>
+        <B>BBBBBBBBBBBB</B>
         <Typography variant="h4" component="h1" gutterBottom>
           MUI v5 + Next.js with TypeScript example
         </Typography>
